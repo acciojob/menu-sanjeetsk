@@ -82,7 +82,7 @@ const App = () => {
     const categories = ['All', 'Breakfast', 'Lunch', 'Shakes'];
 
     return(
-        <div className='App'>
+        <div id='main'>
             <h1 style={{textAlign: "center"}}>Our Menu</h1>
             <CategoryFilter 
                 categories={categories}
