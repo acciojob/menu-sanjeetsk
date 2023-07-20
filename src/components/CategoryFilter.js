@@ -9,6 +9,7 @@ function CategoryFilter({ categories, activeCategory, setCategory }) {
           onClick={() => setCategory(category)}
           className={activeCategory === category ? 'active' : ''}
           id={'filter-btn-'+[index]}
+          data-test-id={'menu-item-'+[category]}
         >
           {category}
         </button>
